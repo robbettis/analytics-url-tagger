@@ -1,0 +1,47 @@
+body {
+  background-image: url('images/background.jpg');
+  background-repeat: repeat-y;
+  font-family: 'Lato', Helvetica, arial, sans-serif;
+}
+
+p {
+  color: white;
+}
+
+.container {
+  width: 500px;
+  height: 700px;
+}
+
+.step {
+  clear: both;
+}
+
+#bullet {
+  font-size: xx-large;
+  font-weight: 100;
+  width: 80px;
+  padding: 5px 5px 10px 35px;
+  float: left;
+
+}
+
+.bullet-caption {
+  font-size: small;
+  vertical-align: bottom;
+}
+
+#breaker {
+  width: 3px;
+  height: 125px;
+  background: white;
+  float: left;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+#fields{
+  width: 300px;
+  float: left;
+  margin-top: 40px;
+}

@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+   "default_icon": "images/icon-128.png",
+   "default_popup": "popup.html"
+ },
+  "name": "Google Analytics URL Tagger",
+  "version": "1.0",
+  "description": "Easily tag URLs for Google Analytics.",
+  "manifest_version": 2,
+  "permissions": [ "tabs" ],
+  "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png"
+  },
+  "content_security_policy": "script-src 'self' https://api-ssl.bitly.com https://ssl.google-analytics.com; object-src 'self'",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCu/XDwxmn1oCAcwF7ydQiRaX+QtWJptLiElUMBCWKun0EHqRtTcLWCSu6lwimhimr6ptTJFZNLk5NiakKyry7Pjspi/UWoM6eZAmuNmckP6QoDtN5y68mOapj6ktKNx/SBI2+6pcfsGr7T2wsUUH+B6nUs8RkTZMCPmj3cEdmIYwIDAQAB",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
